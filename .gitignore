@@ -313,6 +313,13 @@ Temporary Items
 .apdisk
 
 
+### Rush temporary files
+common/deploy/
+common/temp/
+common/autoinstallers/*/.npmrc
+**/.rush/temp/
+
+
 ### USER DEFINED
 .idea
 .vscode

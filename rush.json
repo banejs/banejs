@@ -402,6 +402,12 @@
             "projectFolder": "packages/eslint-config-typescript",
             "reviewCategory": "tools",
             "shouldPublish": false
+        },
+        {
+            "packageName": "@banejs/tsconfig",
+            "projectFolder": "packages/tsconfig",
+            "reviewCategory": "tools",
+            "shouldPublish": false
         }
         // {
         //   /**

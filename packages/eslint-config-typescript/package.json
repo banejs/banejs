@@ -1,0 +1,21 @@
+{
+    "name": "@banejs/eslint-config-typescript",
+    "version": "1.0.0",
+    "description": "Shared ESLint Typescript config",
+    "private": true,
+    "main": "index.js",
+    "license": "ISC",
+    "peerDependencies": {
+        "eslint": "~8.1.0",
+        "typescript": "~4.4.4"
+    },
+    "devDependencies": {
+        "eslint": "~8.1.0",
+        "typescript": "~4.4.4"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "~5.2.0",
+        "@typescript-eslint/parser": "~5.2.0",
+        "eslint-plugin-import": "~2.25.2"
+    }
+}

@@ -220,15 +220,19 @@ module.exports = {
         ],
         '@typescript-eslint/require-await': ['error'],
         '@typescript-eslint/restrict-plus-operands': ['error'],
-        /*'@typescript-eslint/typedef': [
+        '@typescript-eslint/typedef': [
             'error',
             {
                 arrayDestructuring: false,
                 arrowParameter: true,
+                memberVariableDeclaration: true,
+                objectDestructuring: false,
                 parameter: true,
-                propertyDeclaration: true
+                propertyDeclaration: true,
+                variableDeclaration: false,
+                variableDeclarationIgnoreFunction: false
             }
-        ],*/
+        ],
         '@typescript-eslint/unified-signatures': ['error']
     }
 };

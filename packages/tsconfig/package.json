@@ -2,10 +2,9 @@
     "name": "@banejs/tsconfig",
     "version": "1.0.0",
     "description": "Shared TypeScript config",
-    "private": true,
-    "main": "tsconfig.json",
     "license": "ISC",
+    "main": "tsconfig.json",
     "peerDependencies": {
-        "typescript": "~4.4.4"
+        "typescript": "~4.5.3"
     }
 }
